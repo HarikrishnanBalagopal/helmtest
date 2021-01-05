@@ -31,7 +31,7 @@ jobs:
       - run: helm package charts/mychart
       - run: ls -a
       - run: mkdir temp/
-      - run: mv mychart-0.1.0.tgz temp/
+      - run: mv *.tgz temp/
       - run: helm repo index temp/ --url https://github.com/konveyor/move2kube-operator/releases/download/${{ github.event.inputs.tag }}
       - run: echo 'upload temp/index.yaml'
       - uses: HarikrishnanBalagopal/upload-release-action@v3
