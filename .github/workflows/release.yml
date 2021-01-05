@@ -1,0 +1,36 @@
+name: release helm chart
+
+on: workflow_dispatch
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: foo-${{ github.ref }}
+          release_name: Release foo-${{ github.ref }}
+          body: |
+            Changes in this Release
+            - First Change
+            - Second Change
+          draft: true
+      - run: ls -a
+      - uses: azure/setup-helm@v1
+      - run: helm version
+      - run: helm package charts/mychart
+      - run: ls -a
+      - run: mkdir temp/
+      - run: mv mychart-0.1.0.tgz temp/
+      - run: helm repo index temp/ --url https://github.com/konveyor/move2kube/archive/
+      - run: echo 'upload temp/index.yaml'
+      - uses: HarikrishnanBalagopal/upload-release-action@v3
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: foo-${{ github.ref }}
+          file: temp/index.yaml
+          overwrite: true
