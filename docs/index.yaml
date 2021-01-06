@@ -1,0 +1,174 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.548505+05:30"
+    description: A Helm chart for Kubernetes
+    digest: a47f2f8ce9e3bbacb89a9a6ad53e6847efc2e51fbb134f63e04468419ea47213
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-rc.1.tgz
+    version: v0.2.0-rc.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.547392+05:30"
+    description: A Helm chart for Kubernetes
+    digest: f0eb0553a26a223c88f8e51057da136351e742eef3d48c2d68e84e01933728f0
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-rc.0.tgz
+    version: v0.2.0-rc.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.546821+05:30"
+    description: A Helm chart for Kubernetes
+    digest: e649c0e5f367bb7d696536ebd102482e7ef1a9e731617d95fefd7034554ae06e
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-beta.2.tgz
+    version: v0.2.0-beta.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.546258+05:30"
+    description: A Helm chart for Kubernetes
+    digest: ab6346f823bc552fdcc95b7c59818a9b746415da27b010e7022d752d97c625e3
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-beta.1.tgz
+    version: v0.2.0-beta.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.545709+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 46b26c0887115c8fe4c6434e1caf4a304acc385ca430b780ea243bbbea17b34f
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-beta.0.tgz
+    version: v0.2.0-beta.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.54509+05:30"
+    description: A Helm chart for Kubernetes
+    digest: c8dd60c2e80bc6ce3307cd345bb21c90e21ce3880a2bc40a3274fa26dc400fe9
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-alpha.2.tgz
+    version: v0.2.0-alpha.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.544541+05:30"
+    description: A Helm chart for Kubernetes
+    digest: a4a7809769359b214585dff6816da9e2ed17586bbb2dc749282be39f59916150
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-alpha.1.tgz
+    version: v0.2.0-alpha.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.54398+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 3daca786815e3f6998e8bf550ac84816141011e1e5867dad570739d09a4ba6bf
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.2.0-alpha.0.tgz
+    version: v0.2.0-alpha.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.543412+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 79305c3ad33a118a47319357af9aff0cfed4dc06b55188ae8e3ba0356ada72e3
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0.tgz
+    version: v0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.542824+05:30"
+    description: A Helm chart for Kubernetes
+    digest: f43597960e6418d2b6da3d238e49250f8c6eef52614eb37767490961c69a0aad
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-rc.2.tgz
+    version: v0.1.0-rc.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.542332+05:30"
+    description: A Helm chart for Kubernetes
+    digest: e9e1f4912e65a0c13f524e7155a5e52095b45b00e4a2ee9373566617ed8dfe1e
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-rc.1.tgz
+    version: v0.1.0-rc.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.541845+05:30"
+    description: A Helm chart for Kubernetes
+    digest: aec2e79e84043e73c50980a45fac60a6aa53d5f6ff3a331b5cc81e1ed62d3073
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-rc.0.tgz
+    version: v0.1.0-rc.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.541359+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 196ee6f308b1fb14e3d00350647021b477aa5bfb0c9ff026b4de91fdd0443474
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-beta.1.tgz
+    version: v0.1.0-beta.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.540871+05:30"
+    description: A Helm chart for Kubernetes
+    digest: b1277c93ddb59512c1b178a8ec8ffab4e93eaddb1ffafcf63d26b1473e2dffa6
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-beta.0.tgz
+    version: v0.1.0-beta.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.540379+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 0650c0e6d71e08c5e255888d1388de68b90169d0f6f991cdd9c1f7399ff5ccc8
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-alpha.2.tgz
+    version: v0.1.0-alpha.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.539881+05:30"
+    description: A Helm chart for Kubernetes
+    digest: c8f08a184067ffe7c1436ec64ab14901087c3ac0018c11f4cbe8f5a730f62d1d
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-alpha.1.tgz
+    version: v0.1.0-alpha.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T20:09:44.539365+05:30"
+    description: A Helm chart for Kubernetes
+    digest: a7441800686616bc8c8b54acfe2a7fb9346148744c5c3c60f8aae66a7ee5de04
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/konveyor/move2kube-operator/releases/download/v0.1.0/mychart-v0.1.0-alpha.0.tgz
+    version: v0.1.0-alpha.0
+generated: "2021-01-06T20:09:44.538027+05:30"
